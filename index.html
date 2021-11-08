@@ -10,16 +10,18 @@
 	<div class="container">
 
 		<header class="header">
-			<div class="logo">
-				<img src="img/apple.svg" alt="Логотип Apple" height="40px">
+			<div class="nav">
+				<div class="logo">
+					<img src="img/apple.svg" alt="Логотип Apple" height="40px">
+				</div>
+				<nav class="nav-menu">
+					<div class="nav-item"><a href="#">Оформить предзаказ</a></div>
+					<div class="nav-item separator">|</div>
+					<div class="nav-item"><a href="#">Доставка</a></div>
+					<div class="nav-item separator">|</div>
+					<div class="nav-item"><a href="#">Официальный сайт Apple</a></div>
+				</nav>
 			</div>
-			<nav class="nav-menu">
-				<div class="nav-item"><a href="#">Оформить предзаказ</a></div>
-				<div class="nav-item separator">|</div>
-				<div class="nav-item"><a href="#">Доставка</a></div>
-				<div class="nav-item separator">|</div>
-				<div class="nav-item"><a href="#">Официальный сайт Apple</a></div>
-			</nav>
 		</header>
 
 		<main class="container">
@@ -71,6 +73,58 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="order container">
+				<header class="order-header">
+					<h2>Оформить предзаказ</h2>
+				</header>
+				<form>
+					<div class="form-container">
+						<fieldset class="form-text">
+							<legend>Персональные данные</legend>
+							<p><label for="FIO">ФИО</label></p>
+							<input type="text" id="FIO">
+							<p><label for="telephone">Телефон</label></p>
+							<input type="text" id="telephone">
+							<p><label for="e-mail">E-mail</label></p>
+							<input type="text" id="e-mail">
+						</fieldset>
+						<fieldset class="form-text">
+							<legend>Адрес доставки</legend>
+							<p><label for="city">Город</label></p>
+							<input type="text" id="city">
+							<p><label for="index">Индекс</label></p>
+							<input type="text" id="index">
+							<p><label for="adress">Адрес</label></p>
+							<input type="text" id="adress">
+						</fieldset>
+						<fieldset class="form-notext">
+							<legend>Выбор модели</legend>
+							<p><label for="model">Модель</label></p>
+							<select id="model"></select>
+							<p><label for="color">Цвет</label></p>
+							<select id="color"></select>
+						</fieldset>
+						<fieldset class="form-notext">
+							<legend>Аксессуары</legend>
+							<div class="flag">
+								<div class="flag-item">
+									<input type="checkbox" id="c1"><label for="c1">Чехол</label>
+								</div>
+								<div class="flag-item">
+									<input type="checkbox" id="c2"><label for="c2">Наушники AirPods 3</label>
+								</div>
+								<div class="flag-item">
+									<input type="checkbox" id="c3"><label for="c3">Защитное стекло</label>
+								</div>
+								<div class="flag-item"><input type="checkbox" id="c4"><label for="c4">Зарядное устройство MagSafe</label></div>
+							</div>
+						</fieldset>
+					</div>
+					<button class="form-button">Оформить</button>
+				</form>
+			</section>
+
 		</main>
 	</div>
 </body>
