@@ -294,3 +294,26 @@
 	font-size: 20px;
 	font-weight: 400;
 }
+
+/*
+** Footer **
+*/
+
+.footer {
+	background-color: gray;
+    color: white;
+    margin-top: 100px;
+    width: 100%;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer-container {
+	width: 70%;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+}
