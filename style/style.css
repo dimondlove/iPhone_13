@@ -12,8 +12,8 @@
 	font-weight: 400;
 
 	src: 
-		url(../fonts/SFUIText-Medium.woff2), 
-		url(../fonts/SFUIText-Medium.woff);
+		url(../fonts/SFUIText-Regular.woff2), 
+		url(../fonts/SFUIText-Regular.woff);
 }
 
 @font-face {
@@ -21,8 +21,8 @@
 	font-weight: 500;
 
 	src: 
-		url(../fonts/SFUIText-Regular.woff2), 
-		url(../fonts/SFUIText-Regular.woff);
+		url(../fonts/SFUIText-Medium.woff2), 
+		url(../fonts/SFUIText-Medium.woff);
 }
 
 .container {
@@ -30,10 +30,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 /*
-**Header
+** Header **
 */
 
 .header {
@@ -68,4 +69,49 @@
 	font-family: "SF UI Text";
 	font-size: 40px;
 	font-weight: 300;
+}
+
+/*
+** Main **
+*/
+
+.banner {
+	margin-top: 130px;
+}
+
+.banner-header .title {
+	font-family: "SF UI Text";
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.banner-header h2 {
+	font-family: "SF UI Text";
+	font-size: 34px;
+	font-weight: 500;
+	line-height: 41px;
+}
+
+.banner-header .price {
+	font-family: "SF UI Text";
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.banner-button {
+	margin-top: 32px;
+	padding: 18px 23px;
+	color: white;
+	border: none;
+	background: #0071E3;
+	border-radius: 30px;
+	font-family: "SF UI Text";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.banner-img {
+	display: block;
+	width: 100%;
+	margin-top: 100px;
 }
