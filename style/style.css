@@ -176,6 +176,7 @@
 	font-weight: 500;
 	line-height: 41px;
 	margin-top: 0;
+	margin-bottom: 26px;
 }
 
 .form-container {
@@ -213,8 +214,9 @@
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
 	border-radius: 34px;
-	width: 34%;
+	width: 657px;
 	padding: 100px 80px;
+	margin-top: 32px;
 }
 
 .form-container input[type="text"] {
@@ -236,7 +238,7 @@
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
 	border-radius: 34px;
-	width: 34%;
+	width: 657px;
 	padding: 100px 80px;
 	margin-top: 32px;
 }
@@ -316,4 +318,12 @@
 
 	display: flex;
 	justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+
+	.nav {
+		width: 85%;
+	}
+
 }
